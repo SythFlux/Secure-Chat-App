@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MQTT Chat</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.3.7/mqtt.min.js"></script>
+    <script defer src="src/script.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h2>MQTT Chat</h2>
+            <p id="userDisplay" class="username-display"></p>
+        </header>
+        <div id="chatBox" class="chat-box"></div>
+        <div class="input-container">
+            <input type="text" id="messageInput" placeholder="Type a message..." />
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+</body>
+</html>
